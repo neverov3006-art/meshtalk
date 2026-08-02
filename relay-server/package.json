@@ -1,0 +1,12 @@
+{
+  "name": "meshtalk-relay-server",
+  "version": "1.0.0",
+  "description": "Minimal WebSocket relay for MeshTalk's internet transport - routes encrypted envelopes by peerId, never sees plaintext.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
